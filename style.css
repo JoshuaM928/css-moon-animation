@@ -25,3 +25,12 @@ p.letter {
   translate: 0px 50%; /*percentage of the parents width*/
   top: 50%;           /*idk why its not moving 50% of the .container*/
 }
+
+.letter-M{
+    left: 0.2em;
+}
+
+.letter-N{
+    right:0.2em;
+}
+
