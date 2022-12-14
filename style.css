@@ -4,3 +4,14 @@
   box-sizing: border-box;
   font-family: "montserrat", sans-serif;
 }
+
+body{
+    background-color: #21233c;
+}
+
+.container{
+    height: 31.25em;
+    width: 31.25em;
+    position: absolute;
+    translate: -50% -50%;
+}
