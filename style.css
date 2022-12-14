@@ -5,13 +5,23 @@
   font-family: "montserrat", sans-serif;
 }
 
-body{
-    background-color: #21233c;
+body {
+  background-color: #21233c;
 }
 
-.container{
-    height: 31.25em;
-    width: 31.25em;
-    position: absolute;
-    translate: -50% -50%;
+.container {
+  height: 31.25em;
+  width: 31.25em;
+  position: absolute;
+  translate: -50% -50%;
+  top: 50%;
+  left: 50%;
+  color: #ffffff;
+}
+
+p.letter {
+  font-size: 3.5em;
+  position: absolute;
+  translate: 0px 50%; /*percentage of the parents width*/
+  top: 50%;           /*idk why its not moving 50% of the .container*/
 }
